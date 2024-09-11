@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "fritz-sponsor-management/sponsor-carousel",
+  "version": "1.0.0",
+  "title": "Fritz Sponsor Block, Carousel",
+  "category": "widgets",
+  "icon": "list-view",
+  "description": "Fritz Sponsor Block, Carousel",
+  "supports": {
+    "align": true
+  },
+  "attributes": {
+    "category": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "textdomain": "fritz-sponsor-management",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "render": "file:./render.php"
+}

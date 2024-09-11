@@ -1,0 +1,25 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "fritz-player-management/single-player",
+	"version": "1.0.0",
+	"title": "Fritz Spieler Block, Einzel",
+	"category": "widgets",
+	"icon": "list-view",
+	"description": "Fritz Spieler Block, Einzel",
+	"supports": {
+		"align": true
+	},
+	"attributes": {
+		"name": {
+	      "type": "string",
+	      "default": ""
+	    }
+	},
+	"textdomain": "fritz-player-management",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js",
+	"render": "file:./render.php"
+}
