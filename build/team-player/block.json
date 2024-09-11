@@ -1,12 +1,12 @@
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
-  "name": "fritz-sponsor-management/sponsor-carousel",
+  "name": "fritz-player-management/team-player",
   "version": "1.0.0",
-  "title": "Fritz Sponsor Block, Carousel",
+  "title": "Fritz Spieler Block, Team",
   "category": "widgets",
   "icon": "list-view",
-  "description": "Fritz Sponsor Block, Carousel",
+  "description": "Fritz Spieler Block, Team",
   "supports": {
     "align": true
   },
@@ -16,7 +16,7 @@
       "default": ""
     }
   },
-  "textdomain": "fritz-sponsor-management",
+  "textdomain": "fritz-player-management",
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",
   "style": "file:./style-index.css",

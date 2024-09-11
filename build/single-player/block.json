@@ -1,22 +1,22 @@
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
-  "name": "fritz-sponsor-management/sponsor-grid",
+  "name": "fritz-player-management/single-player",
   "version": "1.0.0",
-  "title": "Fritz Sponsor Block, Grid",
+  "title": "Fritz Spieler Block, Einzel",
   "category": "widgets",
   "icon": "list-view",
-  "description": "Fritz Sponsor Block, Grid",
+  "description": "Fritz Spieler Block, Einzel",
   "supports": {
     "align": true
   },
   "attributes": {
-    "category": {
+    "name": {
       "type": "string",
       "default": ""
     }
   },
-  "textdomain": "fritz-sponsor-management",
+  "textdomain": "fritz-player-management",
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",
   "style": "file:./style-index.css",
